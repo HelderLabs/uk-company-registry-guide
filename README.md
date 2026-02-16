@@ -18,6 +18,7 @@ Companies House is the UK's official register of companies. Every company incorp
 
 **Tip:** LLPs have **designated members** instead of directors. The members can be other companies (including foreign LLCs), which is common in acquisition structures.
 
+---
 ## Key Sections of Every Company Record
 
 ### 1. Overview
@@ -35,6 +36,7 @@ Companies House is the UK's official register of companies. Every company incorp
 - **Nationality and country of residence** — signals foreign control
 - **Date of birth** — helps distinguish between people with the same name
 - Officers with very short tenures (days or weeks) are often **nominee directors** — professionals who temporarily hold the role during incorporation before real controllers take over
+
 ### 3. Persons with Significant Control (PSC)
 - The PSC register was introduced in 2016. It lists individuals or entities that:
 - Own more than 25% of shares or voting rights
@@ -93,38 +95,33 @@ A nominee director is someone temporarily appointed at incorporation — typical
 
 **Example:** A person with 1,000+ appointments across Companies House is almost certainly a professional nominee, not a genuine director of all those companies.
 
-> >             >         >         >
-> >             >         >         > ---
-> >             >         >         >
-> >             >         >         > ## Cross-Jurisdictional Structures
-> >             >         >         >
-> >             >         >         > UK companies are frequently used as part of larger international structures. Common patterns:
-> >             >         >         >
-> >             >         >         > - **Delaware LLC → UK LLP → UK Ltd → Operating company** — typical US-owned acquisition structure
-> >             >         >         > - - **UK Ltd owned by BVI or Cayman company** — offshore holding, common in real estate
-> >             >         >         >   - - **UK Ltd with Scottish or Welsh registered address** — may have different legal nuances
-> >             >         >         >    
-> >             >         >         >     - When a UK company is owned by a foreign entity, check:
-> >             >         >         >     - - **SEC EDGAR** (US) for listed companies and their subsidiaries
-> >             >         >         >       - - **OpenCorporates** for cross-jurisdictional entity search
-> >             >         >         >         - - The home country registry (Delaware Division of Corporations, BVI Registry, etc.)
-> >             >         >         >          
-> >             >         >         >           - ---
-> >             >         >         >
-> >             >         >         > ## Useful Direct URLs
-> >             >         >         >
-> >             >         >         > | Resource | URL |
-> >             >         >         > |----------|-----|
-> >             >         >         > | Company search | https://find-and-update.company-information.service.gov.uk |
-> >             >         >         > | Officer appointments | https://find-and-update.company-information.service.gov.uk/search/officers |
-> >             >         >         > | OpenCorporates (global) | https://opencorporates.com |
-> >             >         >         > | SEC EDGAR (US) | https://www.sec.gov/cgi-bin/browse-edgar |
-> >             >         >         > | Land Registry (UK property) | https://www.gov.uk/search-property-information-land-registry |
-> >             >         >         > | Charity Commission | https://register-of-charities.charitycommission.gov.uk |
-> >             >         >         >
-> >             >         >         > ---
-> >             >         >         >
+---
+## Cross-Jurisdictional Structures
 
+UK companies are frequently used as part of larger international structures. Common patterns:
+
+- **Delaware LLC → UK LLP → UK Ltd → Operating company** — typical US-owned acquisition structure
+- **UK Ltd owned by BVI or Cayman company** — offshore holding, common in real estate
+- **UK Ltd with Scottish or Welsh registered address** — may have different legal nuances
+
+- When a UK company is owned by a foreign entity, check:
+- **SEC EDGAR** (US) for listed companies and their subsidiaries
+- **OpenCorporates** for cross-jurisdictional entity search
+- The home country registry (Delaware Division of Corporations, BVI Registry, etc.)
+
+---
+## Useful Direct URLs
+
+| Resource | URL |
+|----------|-----|
+| Company search | https://find-and-update.company-information.service.gov.uk |
+| Officer appointments | https://find-and-update.company-information.service.gov.uk/search/officers |
+| OpenCorporates (global) | https://opencorporates.com |
+| SEC EDGAR (US) | https://www.sec.gov/cgi-bin/browse-edgar |
+| Land Registry (UK property) | https://www.gov.uk/search-property-information-land-registry |
+| Charity Commission | https://register-of-charities.charitycommission.gov.uk |
+
+---
 ## Research Workflow
 
 A standard corporate research workflow using Companies House:
