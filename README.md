@@ -2,13 +2,11 @@
 A practical guide to extracting intelligence from Companies House for corporate research, beneficial ownership tracing and due diligence.
 
 ---
-
 ## What is Companies House?
 
 Companies House is the UK's official register of companies. Every company incorporated in England, Wales, Scotland or Northern Ireland must register here. All filings are **free and publicly accessible** at [find-and-update.company-information.service.gov.uk](https://find-and-update.company-information.service.gov.uk).
 
 ---
-
 ## Company Types
 
 | Code | Type | Notes |
@@ -58,46 +56,43 @@ A chronological log of every document filed. Key filings to look for:
 | MR01 | Mortgage or charge registered — debt secured on assets |
 | AD01 | Registered office address change |
 
+### 5. Charges
+Lists any mortgages, debentures or other charges (security interests) registered against the company. Useful for understanding debt structure and which lenders have security over assets.
 
-> >             > ### 5. Charges
-> >             > Lists any mortgages, debentures or other charges (security interests) registered against the company. Useful for understanding debt structure and which lenders have security over assets.
-> >             >
-> >             > ---
-> >             >
-> >             > ## Reading the PSC Register
-> >             >
-> >             > The PSC register shows the **ultimate beneficial owner** — the real person or entity in control. However there are important limitations:
-> >             >
-> >             > - Entities with less than 25% ownership are not required to register
-> >             > - - Corporate PSCs (another company owns the shares) just push the question up one level — you must then trace that company
-> >             >   - - Trusts and nominee arrangements can obscure the true owner
-> >             >     - - Foreign companies are listed but their own beneficial ownership may not be visible in UK records
-> >             >      
-> >             >       - > **Technique:** When a corporate entity is listed as PSC, search for that entity in Companies House or its home jurisdiction registry. Keep tracing up the chain until you reach an individual or a jurisdiction that doesn't disclose.
-> >             >         >
-> >             >         > ---
-> >             >         >
-> >             >         > ## Dissolved Companies
-> >             >         >
-> >             >         > Dissolved companies still appear in Companies House searches. Their records remain accessible indefinitely. This is valuable because:
-> >             >         >
-> >             >         > - Historical officer appointments are preserved
-> >             >         > - - Filing history shows what the company did before dissolution
-> >             >         >   - - Dissolved holding companies often reveal past acquisition structures
-> >             >         >     - - The registered address at time of dissolution often links to the law firm or formation agent that managed the dissolution
-> >             >         >      
-> >             >         >       - ---
-> >             >         >
-> >             >         > ## Nominee Directors
-> >             >         >
-> >             >         > A nominee director is someone temporarily appointed at incorporation — typically a paralegal or company formation agent — before real directors take over. Signs of a nominee:
-> >             >         >
-> >             >         > - Appointed on the same day as incorporation
-> >             >         > - - Resigned within days or weeks
-> >             >         >   - - Same person appears across hundreds of other companies (check their personal appointments profile)
-> >             >         >     - - Address matches a law firm or company services provider
-> >             >         >      
-> >             >         >       - > **Example:** A person with 1,000+ appointments across Companies House is almost certainly a professional nominee, not a genuine director of all those companies.
+---
+## Reading the PSC Register
+
+The PSC register shows the **ultimate beneficial owner** — the real person or entity in control. However there are important limitations:
+
+- Entities with less than 25% ownership are not required to register
+- Corporate PSCs (another company owns the shares) just push the question up one level — you must then trace that company
+- Trusts and nominee arrangements can obscure the true owner
+- Foreign companies are listed but their own beneficial ownership may not be visible in UK records
+
+**Technique:** When a corporate entity is listed as PSC, search for that entity in Companies House or its home jurisdiction registry. Keep tracing up the chain until you reach an individual or a jurisdiction that doesn't disclose.
+
+---
+## Dissolved Companies
+
+Dissolved companies still appear in Companies House searches. Their records remain accessible indefinitely. This is valuable because:
+
+- Historical officer appointments are preserved
+- Filing history shows what the company did before dissolution
+- Dissolved holding companies often reveal past acquisition structures
+- The registered address at time of dissolution often links to the law firm or formation agent that managed the dissolution
+
+---
+## Nominee Directors
+
+A nominee director is someone temporarily appointed at incorporation — typically a paralegal or company formation agent — before real directors take over. Signs of a nominee:
+
+- Appointed on the same day as incorporation
+- Resigned within days or weeks
+- Same person appears across hundreds of other companies (check their personal appointments profile)
+- Address matches a law firm or company services provider
+
+**Example:** A person with 1,000+ appointments across Companies House is almost certainly a professional nominee, not a genuine director of all those companies.
+
 > >             >         >         >
 > >             >         >         > ---
 > >             >         >         >
